@@ -1,1 +1,8 @@
-@import "./fonts.css";
+@layer fonts, tokens, reset, base, utilities, components;
+
+@import url("./fonts.css") layer(fonts);
+@import url("./variables.css") layer(tokens);
+@import url("./base.css") layer(reset);
+@import url("./typography.css") layer(base);
+@import url("./utilities.css") layer(utilities);
+@import url("./components.css") layer(components);
