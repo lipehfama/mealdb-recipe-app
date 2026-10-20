@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import Test from "./components/Test.vue";
+import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <Test />
+  <Header />
+
+  <Footer />
 </template>
