@@ -28,7 +28,7 @@ const emit = defineEmits<{
   color: var(--color-white);
   background:
     linear-gradient(rgb(0 0 0 / 48%), rgb(0 0 0 / 58%)),
-    url("../assets/images/header_image.jpg") center / cover;
+    url("../assets/images/header_image.webp") center / cover;
 }
 
 .site-header__hero {
